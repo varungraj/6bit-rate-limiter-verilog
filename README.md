@@ -70,7 +70,7 @@ License
 
 This project is licensed under the MIT License, allowing free use, modification, and distribution with proper attribution.
 
-Author
+Author:
 Varun G Raj
 
 Created: June 24, 2025
