@@ -52,29 +52,24 @@ In SimVision:
 Open wave.shm to analyze waveforms.
 Inspect signals (clk, rst, d_in, step_size, d_out) to verify behavior.
 
-
-View documentation:
-Open docs/Ratelimiter_schematic.pdf for the schematic.
-Open docs/Ratelimiter_waveform.pdf for sample waveform outputs.
-
-
 Testbench Details:
-The testbench (testbench/rate_limiter_tb.v) verifies the following scenarios:
+The testbench verifies the following scenarios:
 
-Reset: Initializes output to 0.
-Basic Increment: Steps output towards 30 with step size 7.
-Basic Decrement: Steps output towards 15.
-Steady State: Verifies no change when input equals output.
-Small Increment: Immediate update for small input changes.
-Zero Step Size: No output change when step size is 0.
-Decrement Wrap: Handles low-end transitions.
-Increment Wrap: Handles high-end transitions (up to 63).
+1. Reset: Initializes output to 0.
+2. Basic Increment: Steps output towards 30 with step size 7.
+3. Basic Decrement: Steps output towards 15.
+4. Steady State: Verifies no change when input equals output.
+5. Small Increment: Immediate update for small input changes.
+6. Zero Step Size: No output change when step size is 0.
+7. Decrement Wrap: Handles low-end transitions.
+8. Increment Wrap: Handles high-end transitions (up to 63).
 
 License
 This project is licensed under the MIT License, allowing free use, modification, and distribution with proper attribution.
 
 Author
 Varun G Raj
+
 Created: June 24, 2025
 
 Acknowledgments
