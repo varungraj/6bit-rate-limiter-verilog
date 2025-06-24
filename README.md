@@ -72,14 +72,13 @@ The testbench verifies the following scenarios:
 7. Decrement Wrap: Handles low-end transitions.
 8. Increment Wrap: Handles high-end transitions (up to 63).
 
-License:
+License
 
 This project is licensed under the MIT License, allowing free use, modification, and distribution with proper attribution.
 
-Author:
-Varun G Raj
+Author | Varun G Raj
 
-Created: June 24, 2025
+Created | June 24, 2025
 
 
 
