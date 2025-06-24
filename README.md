@@ -44,13 +44,13 @@ Ensure Cadence Xcelium and SimVision are installed and configured.
 
 Compilation and Simulation:
 
-Compile the design and testbench using                 
+1. Compile the design and testbench using                 
 
-cmd. xrun -sv -access +rwc ratelimiter.v ratelimiter_tb.sv
+cmd | xrun -sv -access +rwc ratelimiter.v ratelimiter_tb.sv
 
-Run the simulation using 
+2. Run the simulation using 
 
-cmd. simvision wave.shm
+cmd | simvision wave.shm
 
 This generates a waveform database (wave.shm) and opens SimVision.
 
