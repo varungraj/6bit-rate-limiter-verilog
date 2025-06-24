@@ -1,4 +1,5 @@
 6-Bit Rate Limiter Verilog 
+
 A Verilog implementation of a 6-bit rate limiter with adjustable step size and synchronous reset, designed for smooth output transitions. Includes a testbench for functional verification and documentation with schematic and waveform outputs.
 
 Overview 
@@ -66,10 +67,10 @@ The testbench verifies the following scenarios:
 8. Increment Wrap: Handles high-end transitions (up to 63).
 
 License
+
 This project is licensed under the MIT License, allowing free use, modification, and distribution with proper attribution.
 
 Author
-
 Varun G Raj
 
 Created: June 24, 2025
@@ -77,7 +78,9 @@ Created: June 24, 2025
 Acknowledgments
 
 Developed to demonstrate Verilog design and verification.
+
 Simulated using Cadence Xcelium and SimVision for accurate waveform analysis.
+
 
 
 Contributions are welcomed! Submit issues or pull requests on GitHub.
