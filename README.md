@@ -43,7 +43,8 @@ Ensure Cadence Xcelium and SimVision are installed and configured.
 
 
 Compilation and Simulation:
-Compile the design and testbench using Xrun | cmd is
+
+Compile the design and testbench using cmd
 xrun -sv -access +rwc ratelimiter.v ratelimiter_tb.sv
 
 Run the simulation:
