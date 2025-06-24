@@ -1,7 +1,7 @@
-6-Bit Rate Limiter Verilog
+6-Bit Rate Limiter Verilog :
 A Verilog implementation of a 6-bit rate limiter with adjustable step size and synchronous reset, designed for smooth output transitions. Includes a testbench for functional verification and documentation with schematic and waveform outputs.
 
-Overview
+Overview :
 The rate_limiter module adjusts a 6-bit output (d_out) towards a 6-bit input (d_in) using a 3-bit step size (step_size), preventing abrupt changes. It operates on the positive clock edge with a synchronous active-high reset, constraining the output to the range 0 to 63. The testbench verifies key scenarios, and documentation includes a schematic and waveform results from SimVision.
 
 Repository Contents
