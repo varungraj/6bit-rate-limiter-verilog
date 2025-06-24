@@ -54,7 +54,7 @@ Compilation and Simulation:
 
 This generates a waveform database (wave.shm) and opens SimVision.
 
-- In SimVision:
+In SimVision:
 
 Open wave.shm to analyze waveforms.
 Inspect signals (clk, rst, d_in, step_size, d_out) to verify behavior.
