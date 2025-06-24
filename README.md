@@ -35,7 +35,6 @@ Basic knowledge of Verilog and simulation workflows.
 Setup:
 Clone the repository:
 git clone https://github.com/varungraj/6bit-rate-limiter-verilog.git
-cd 6bit-rate-limiter-verilog
 
 Ensure Cadence Xcelium and SimVision are installed and configured.
 
