@@ -75,12 +75,6 @@ Varun G Raj
 
 Created: June 24, 2025
 
-Acknowledgments
-
-Developed to demonstrate Verilog design and verification.
-
-Simulated using Cadence Xcelium and SimVision for accurate waveform analysis.
-
 
 
 Contributions are welcomed! Submit issues or pull requests on GitHub.
