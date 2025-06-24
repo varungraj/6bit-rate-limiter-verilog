@@ -1,5 +1,4 @@
 6-Bit Rate Limiter Verilog 
-
 A Verilog implementation of a 6-bit rate limiter with adjustable step size and synchronous reset, designed for smooth output transitions. Includes a testbench for functional verification and documentation with schematic and waveform outputs.
 
 Overview 
