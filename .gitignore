@@ -1,0 +1,20 @@
+# Verilog simulation outputs
+*.log
+*.vcd
+*.shm
+*.wdb
+*.bak
+# Tool-generated files
+work/
+transcript
+vsim.wlf
+*.o
+*.obj
+
+# Common OS files
+.DS_Store
+Thumbs.db
+
+# Verilog source files to keep
+!*.v
+!*.sv
