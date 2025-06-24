@@ -46,11 +46,11 @@ Compilation and Simulation:
 
 1. Compile the design and testbench using                 
 
-cmd | xrun -sv -access +rwc ratelimiter.v ratelimiter_tb.sv
+    | xrun -sv -access +rwc ratelimiter.v ratelimiter_tb.sv
 
 2. Run the simulation using 
 
-cmd | simvision wave.shm
+    | simvision wave.shm
 
 This generates a waveform database (wave.shm) and opens SimVision.
 
