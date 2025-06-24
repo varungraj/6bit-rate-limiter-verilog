@@ -9,7 +9,7 @@ The rate_limiter module adjusts a 6-bit output (d_out) towards a 6-bit input (d_
 Repository Contents
 
 1. src/ratelimiter.v: Core Verilog module implementing the rate limiter.
-2. testbench/rate_limiter_tb.v: Testbench for simulation and verification.
+2. testbench/ratelimiter_tb.v: Testbench for simulation and verification.
 3. docs/Ratelimiter_schematic.pdf: Schematic diagram of the rate limiter.
 4. docs/Ratelimiter_waveform.pdf: Waveform results from SimVision.
 5. .gitignore: Excludes simulation outputs and temporary files.
@@ -46,7 +46,7 @@ Compilation and Simulation:
 
 1. Compile the design and testbench using                 
 
-    | xrun -sv -access +rwc ratelimiter.v ratelimiter_tb.sv
+    | xrun -sv -access +rwc ratelimiter.v ratelimiter_tb.v
 
 2. Run the simulation using 
 
