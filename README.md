@@ -35,6 +35,7 @@ Git for cloning the repository.
 Basic knowledge of Verilog and simulation workflows.
 
 Setup:
+
 Clone the repository
  https://github.com/varungraj/6bit-rate-limiter-verilog.git
 
